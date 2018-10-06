@@ -1,0 +1,10 @@
+<div class="story-component-page">
+    <div class="container-fluid text-center text-black">
+        <h1 class="mb-5">{{gameTitle}}</h1>
+        <h2 class="mb-5">Please enter your name:</h2>
+        <input type="text" placeholder="Name" class="mb-5 px-2" [(ngModel)]="name" (input)="checkCompleted()" /><br>
+        <button class="btn continue-button px-5 py-2 mx-auto" [class.disabled]="!playerComplete" (click)="createPlayer()">Start Advanture</button>
+        <h3>{{Message}}</h3>
+        <!-- <a routerLink="/story" class="btn btn-primary text-uppercase mb-3 px-5">Start Advanture</a> -->
+    </div>
+</div>

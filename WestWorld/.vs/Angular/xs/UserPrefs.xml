@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="Run2">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Angular/Properties/launchSettings.json">
+    <Files>
+      <File FileName="Angular/ClientApp/app/components/start/start.component.ts" Line="29" Column="39" />
+      <File FileName="Backend/Models/GameManage.cs" Line="53" Column="93" />
+      <File FileName="Backend/Models/Host.cs" Line="15" Column="28" />
+      <File FileName="Angular/ClientApp/app/components/story/story.component.ts" Line="103" Column="65" />
+      <File FileName="Angular/ClientApp/app/components/story/story.component.html" Line="4" Column="66" />
+      <File FileName="Angular/ClientApp/app/components/story/story.component.css" Line="10" Column="37" />
+      <File FileName="Angular/ClientApp/app/components/start/start.component.css" Line="6" Column="5" />
+      <File FileName="Angular/ClientApp/app/components/start/start.component.html" Line="1" Column="1" />
+      <File FileName="Angular/ClientApp/app/app.shared.module.ts" Line="30" Column="22" />
+      <File FileName="Angular/Program.cs" Line="21" Column="1" />
+      <File FileName="Angular/Properties/launchSettings.json" Line="24" Column="26" />
+      <File FileName="Backend/Startup.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Angular PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Run2" Name="Run2">
+      <Items>
+        <StartupItem ItemId="{8BD9C8FD-E76D-49B1-AB58-BCAB3D7DDD8B}" ItemName="Angular" ConfigurationId="Default" />
+        <StartupItem ItemId="{0FA38B5E-744F-4B33-B9A7-D6E35E81CBE8}" ItemName="Backend" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Backend PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,16 @@
+.container-fluid {
+    height: 100vh;
+    background-image: url('../../../assets/westworld-background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    padding-top: calc(45vh - 50px);
+}
+
+    .container-fluid h1{
+        font-size: 70px;
+    }
+
+    .container-fluid a{
+        font-size: 20px;
+    }

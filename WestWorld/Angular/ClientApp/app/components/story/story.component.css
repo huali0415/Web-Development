@@ -1,0 +1,30 @@
+.story-component-page {
+    height: 100vh;
+    background-image: url('../../../assets/westworld-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.story-container {
+    background-color: rgba(0,0,0,0.6);
+    border: 3px solid #d2b48c;
+    border-radius: 7px;
+    overflow-y: auto;
+    font-size: 130%;
+}
+
+.encounter-option {
+    cursor: pointer;
+}
+
+.options-bar {
+    background-color: #d2b48c;;
+    border-top: 2px solid darkgreen; 
+}
+
+body {
+    background-image: url('../../../assets/westworld-background.jpg');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,37 @@
+<div class="story-component-page">
+    <div class="row h-100">
+        <div class="col-3 sidebar p-3 text-center text-white h-25">
+            <img src= "{{imagePath}}" style="height:120px" /> <h3>{{hostName}}</h3> 
+        </div>
+        <div class="col-12 text-center text-blue p-3">
+            <div class="container body-content py-5 h-100">
+                <div class="h-100 story-container p-3">
+                    <p class="text-white text-center col-12" *ngFor="let line of lines">
+                        {{line}}
+                    </p>
+                    <div class="m-3">
+                        <button *ngFor="let option of options" class="btn encounter-option mr-3" (click)="chooseAction(option)">
+                            {{option}}
+                        </button>
+                    </div>
+                    <p class="text-white text-center col-12">
+                        {{displayMessage}}
+                    </p>
+                    <p class="text-white text-center col-12">
+                        {{ending}}
+                    </p>
+                    <div class="m-3" *ngIf="showNextChapterButton">
+                        <button class="btn encounter-option" (click)="nextStory()">
+                            Next Chapter
+                        </button>
+                    </div>
+                    <div class="m-3" *ngIf="showHomeButton">
+                        <button class="btn encounter-option" (click)="gameOver()">
+                            Play again
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
